@@ -1,0 +1,40 @@
+baseURL = "https://skylinemath.club/"
+languageCode = "en-us"
+title = "Skyline Math Club"
+theme = "terminal"
+paginate = 5
+
+[params]
+    contentTypeName = "posts"
+    themeColor = "green"
+    showMenuItems = 5
+    showLanguageSelector = false
+    fullWidthTheme = false
+    centerTheme = false
+
+[languages]
+    [languages.en]
+        languageName = "English"
+        title = "Skyline Math Club"
+        keywords = ""
+        copyright = ""
+
+        [languages.en.params]
+            [languages.en.params.logo]
+                logoText = "Skyline Math Club"
+                logoHomeLink = "/"
+        
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+                identifier = "competition"
+                name = "Competition"
+                url = "/competition"
+            [[languages.en.menu.main]]
+                identifier = "announcements"
+                name = "Announcements"
+                url = "/announcements"
+            [[languages.en.menu.main]]
+                identifier = "contact"
+                name = "Contact"
+                url = "/contact"
+
