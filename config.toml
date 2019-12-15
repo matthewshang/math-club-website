@@ -11,6 +11,11 @@ paginate = 5
     showLanguageSelector = false
     fullWidthTheme = false
     centerTheme = false
+    showFullContent = false
+
+[blackfriday]
+    fractions = false
+    extensions = ["hardLineBreak"]
 
 [languages]
     [languages.en]
