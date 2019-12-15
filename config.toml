@@ -29,12 +29,15 @@ paginate = 5
                 identifier = "competition"
                 name = "Competition"
                 url = "/competition"
+                weight = 1
             [[languages.en.menu.main]]
                 identifier = "announcements"
                 name = "Announcements"
                 url = "/announcements"
+                weight = 2
             [[languages.en.menu.main]]
-                identifier = "contact"
-                name = "Contact"
-                url = "/contact"
+                identifier = "problem"
+                name = "Problem of the Week"
+                url = "/problem"
+                weight = 3
 
