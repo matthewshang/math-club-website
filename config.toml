@@ -13,6 +13,9 @@ paginate = 5
     centerTheme = false
     showFullContent = false
 
+[markup.goldmark.renderer]
+    unsafe = true
+
 [blackfriday]
     fractions = false
     extensions = ["hardLineBreak"]
@@ -31,18 +34,15 @@ paginate = 5
         
         [languages.en.menu]
             [[languages.en.menu.main]]
-                identifier = "competition"
-                name = "Competition"
-                url = "/competition"
-                weight = 1
-            [[languages.en.menu.main]]
                 identifier = "announcements"
                 name = "Announcements"
                 url = "/announcements"
-                weight = 2
             [[languages.en.menu.main]]
                 identifier = "problem"
                 name = "Problem of the Week"
                 url = "/problem"
-                weight = 3
+            [[languages.en.menu.main]]
+                identifier = "roster"
+                name = "Roster"
+                url = "/roster"
 

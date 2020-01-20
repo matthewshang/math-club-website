@@ -31,6 +31,6 @@ We meet on Mondays from 3:00 to 3:45 in room P1.
 **Director of Communications**: Angeline Yu \
 **Director of Competitions**: Laasya Nagareddy \
 **Director of Finances**: Jason Kim \
-**Director of Meetings**: Vishal Canumalla \
+**Director of Meetings**: Vishal Canumalla
 
 **Adviser**: [Mrs. Reinsch](mailto:reinschm@issaquah.wednet.edu)

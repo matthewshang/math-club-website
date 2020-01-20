@@ -8,7 +8,6 @@
           <li>
             {{ $active := or ($current.IsMenuCurrent "menu" .) ($current.HasMenuCurrent "menu" .) }}
             {{ $active = or $active (eq .Name $current.Title) }}
-            {{ $active = or $active (and (eq .Name "Announcements") (eq $current.Section "announcements")) }}
             <a href="{{ .URL }}" {{ if $active }}aria-current="page"{{ end }}>
               <span {{ if $active }} style="font-weight:bold" {{ end }}>{{ .Name }}</span>
             </a>
